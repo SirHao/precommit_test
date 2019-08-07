@@ -1,2 +1,6 @@
 composer.json
-test.php
+composer.lock
+/vendor
+.php_cs.cache
+.phplint-cache
+README.md
