@@ -1,6 +1,7 @@
 composer.json
 composer.lock
-/vendor
+/vendor/*
+vendor/*
 .php_cs.cache
 .phplint-cache
 README.md
