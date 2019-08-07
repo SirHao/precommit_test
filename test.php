@@ -9,7 +9,7 @@ class Timesheet extends AppModel
 {
     public $name = 'Timesheet';
     public $useTable = 'timesheets';
-    public $uses = array('Story', 'Task') ;
+    public $uses = array('Story', 'Task');
     public $validate = array(
         'entity_id' => VALID_NUMBER,
         'entity_type' => VALID_NOT_EMPTY,
